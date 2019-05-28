@@ -111,6 +111,7 @@
 /* slider */
 .slider-height {
 	min-height: 500px;
+	height:600px;
 }
 .silder-content {
 	padding-top: 0px;
@@ -222,6 +223,7 @@
 /* slider */
 .slider-height {
 	min-height: 490px;
+	height: 700px;
 }
 .silder-content h1 {
 	font-size: 36px;

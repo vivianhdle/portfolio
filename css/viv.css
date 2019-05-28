@@ -29,7 +29,7 @@
 }
 
 @media (max-width:576px){
-    .container{max-width:310px};
+    .container.landing{max-width:310px};
 }
 
 .in-progress{
