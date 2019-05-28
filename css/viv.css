@@ -24,3 +24,17 @@
         max-width: 50%;
         }
 }
+.hero{
+    background-position:center;
+}
+
+@media (max-width:576px){
+    .container.landing{max-width:310px};
+}
+
+.in-progress{
+    color:red;
+}
+a.in-progress{
+    color:red;
+}

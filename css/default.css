@@ -716,7 +716,7 @@
 	position: relative;
 }
 [data-overlay]::before {
-	background: #000 none repeat scroll 0 0;
+	background: rgba(54, 52, 52, 0.63) none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	left: 0;
