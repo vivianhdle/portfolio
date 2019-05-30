@@ -38,3 +38,8 @@
 a.in-progress{
     color:red;
 }
+
+.footer-area{
+    padding:2rem 0;
+    background-color:#403e3e;
+}
