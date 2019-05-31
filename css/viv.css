@@ -1,3 +1,4 @@
+
 .skills-container {
 	display: flex;
 	justify-content: center;
@@ -35,11 +36,16 @@
 .in-progress{
     color:red;
 }
+#in-progress{
+    color:red;
+}
 a.in-progress{
     color:red;
+}
+.navbar-brand{
+    transition: all 0.3s ease-out 0s;
 }
 
 .footer-area{
     padding:2rem 0;
-    /* background-color:#403e3e; */
 }
