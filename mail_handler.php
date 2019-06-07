@@ -5,7 +5,13 @@ require_once('./phpmailer/PHPMailer/src/PHPMailer.php');
 require_once('./phpmailer/PHPMailer/src/SMTP.php');
 
 foreach($_POST as $key =>$value){
-    $_POST[$key] = htmlentities (addslashes ($value));
+    $userInput=htmlentities (addslashes ($value));
+    $_POST[$key] = ltrim($userInput);
+
+    if (strlen($_POST[$key]) === 0) {
+        echo 'Message could not be sent.';
+        exit();
+    }
 }
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
