@@ -49,3 +49,13 @@ a.in-progress{
 .footer-area{
     padding:2rem 0;
 }
+
+.alert-danger {
+    color: white;
+    background-color: rgb(231, 161, 95);
+    border-color: rgb(231, 161, 95);
+}
+
+.alert-danger li{
+    padding:.75rem;
+}
